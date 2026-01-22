@@ -127,6 +127,7 @@ h1{
 
 @media (max-width: 450px) {
   .sparkles { 
+    position: absolute;
     top: 10%;
   }
 }
