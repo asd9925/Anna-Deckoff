@@ -8,6 +8,15 @@ body{
     justify-content: center; 
 }
 
+.sparkles {
+    position: absolute;
+    left: 4%;
+    top: 5%;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+}
+
 .header{
     margin-left: 13%;
     /* margin-top: 10%; */
@@ -34,11 +43,40 @@ h1{
     font-size: 35px;
 }
 
+.link6{
+    font-size: 18px;
+    color: black;
+    margin-left: 57%;
+    margin-top: -38%;
+}
+
+.link7{
+    font-size: 18px;
+    color: black;
+    margin-left: 57%;
+    margin-top: 2%;
+}
+
+.link9{
+    font-size: 18px;
+    color: black;
+    margin-left: 57%;
+    margin-top: 2%;
+}
+
 .link1{
     font-size: 18px;
     color: black;
     margin-left: 57%;
-    margin-top: -35%;
+    /* margin-top: -35%; */
+    margin-top: 2%;
+}
+
+.link8{
+    font-size: 18px;
+    color: black;
+    margin-left: 57%;
+    margin-top: 2%;
 }
 
 .link2{
@@ -81,7 +119,7 @@ h1{
 }
 
 @media (max-width: 450px) {
-  .link1, .link2, .link3, .link4, .link5 {
+  .link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8 {
     margin-left: 10%;  
     margin-top: 5%;
   }
